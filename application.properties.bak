@@ -1,4 +1,12 @@
 spring:
+	
+spring:
+	datasource:
+		url: jdbc:postgresql://localhost:5432/testConfig
+		username: Afpa
+		password: 10cd@_@tos!
+	application:
+		name: api-resource
 	jpa:
 		properties:
 			hibernate:
@@ -6,11 +14,6 @@ spring:
 		hibernate:
 			ddl-auto: none
 			show-sql: true
-spring:
-	datasource:
-		url: jdbc:postgresql://localhost:5432/testConfig
-		username: Afpa
-		password: 10cd@_@tos!
 
 eureka:
   instance:
