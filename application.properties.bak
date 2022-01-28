@@ -1,6 +1,4 @@
 spring:
-	
-spring:
 	datasource:
 		url: jdbc:postgresql://localhost:5432/testConfig
 		username: Afpa
@@ -14,10 +12,3 @@ spring:
 		hibernate:
 			ddl-auto: none
 			show-sql: true
-
-eureka:
-  instance:
-    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:9001/eureka
